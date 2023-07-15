@@ -10,7 +10,7 @@ function LoginPage() {
 
   const onLogin = ({ id, password }) => {
     // @TODO: dispatch async action to login
-    dispatch(asyncSetAuthUser({id, password}))
+    dispatch(asyncSetAuthUser({ id, password }))
   };
 
   return (
@@ -26,7 +26,7 @@ function LoginPage() {
           ,
           {' '}
           <br />
-          Through Open Space.
+          Through Open Space Adji.
         </h2>
 
         <LoginInput login={onLogin} />
